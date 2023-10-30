@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="still.css">
+
+</head>
+
+<body>
+
+    <header class="container-lg">
+
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <h1 class="display-2 mt-2 ms-5">Hello, world!</h1>
+    <div class="container bg-info text-warning mt-1 p-5 text-center">
+        Ortalanmış bölüm
+    </div>
+
+    <div class="container-fluid bg-warning p-5 text-center">
+        Baştan sona etkileyen bölüm
+        <p class="text-muted">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, labore.
+        </p>
+    </div>
+
+    <!-- colon ve satır işlmeleri -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- col-sm: kolon küçülmeleri 576px den sonra olur
+            col-md: kolon küçülmeleri 768px den sonra olur -->
+            <div class="col-md-3 bg-danger text-center">
+                <h4 class="display-5">Samet Yılmaz</h4>
+                <img src="./astronot.jpg" alt="" class="img-thumbnail w-50 rounded-circle">
+                <p>
+                    Bilişim Teknolojileri <mark>Frontend</mark> <b class="text-warning">Python and C#</b>
+                </p>
+                <button class="btn btn-secondary">Detay Bilgi</button>
+
+                <button class="btn btn-outline-success">İkinci</button>
+            </div>
+            <div class="vgf col-md-3 bg-primary text-end">
+                <h4 class="display-5">Samet Yılmaz</h4>
+                <img src="./astronot.jpg" alt="" class="img-thumbnail w-50 rounded-circle">
+                <p>
+                    Bilişim Teknolojileri <mark>Frontend</mark> <b class="text-warning">Python and C#</b>
+                </p>
+                <a href="#" class="btn btn-secondary">Detay Bilgi</a>
+                <a href="#" class="btn btn-outline-success">İkinci</a>
+                <!-- <button class="btn a-secondary">Detay Bilgi</button>
+
+                <button class="btn btn-outline-success">İkinci</button> -->
+
+
+            </div>
+            <div class="col-md-3 bg-warning">
+                <p class="samet">
+                    Selammmm
+                </p>
+                <a href="#" class="samet btn btn-dark">Lİnk Oluştur</a>
+            </div>
+            <div class="col-md-3 bg-info">
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="container-lg">
+
+        <h2>Tablo Bölümü</h2>
+        <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
