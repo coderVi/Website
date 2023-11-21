@@ -1,0 +1,12 @@
+.vgf:hover{
+    background-color: pink !important;
+}
+
+.samet{
+    background-color: red;
+}
+
+.btn-dark:hover{
+    background-color: #000 !important;
+    color: #ffff !important;
+}
