@@ -1,2 +1,2 @@
 # Website
-Bu repoda sadece web site örneklerimi paylaşıyorum.
+I only share website examples in this repository.
