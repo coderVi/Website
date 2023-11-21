@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="container">
+        <nav>
+            <ul id="menu">
+                <li class="eleman active"><a href="#">Java</a></li>
+                <li class="eleman"><a href="#">C#</a></li>
+                <li class="eleman"><a href="#">C</a></li>
+                <li class="eleman"><a href="#">Python</a></li>
+                <li class="eleman"><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input type="text" id="username" placeholder="Kullanıcı Adı"> <br>
+            <input type="password" id="password" placeholder="Şifre"> <br>
+            <input type="button" id="goster" value="👁" onclick="view()"><br>
+            <input type="button" value="Kontrol" onclick="uyegiris()"> <br>
+            <input type="color" id="renk" onchange="samet()">
+            <br> <br><br>
+        </form>
+        <h2>Hesap Makinesi
+
+        </h2>
+        <input type="number" id="s1"><br>
+        <input type="number" id="s2"><br>
+        <input type="button" value="+" id="topla" onclick="toplama()">
+        <input type="button" value="-" id="cikar" onclick="cikarma()">
+        <input type="button" value="x" id="carp" onclick="carpma()">
+        <input type="button" value="/" id="bol" onclick="bolme()"><br>
+        <h2 id="sonuc">Sonuç</h2> <br> <br>  <br>
+        <h2>Ekleme Çıkarma</h2>
+        <input type="number" id="sepet"> <br> <br>
+        <input type="button" value="Ekle" onclick="addToCard()">
+        <input type="button" value="Çıkar" onclick="removeToCard()">
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
