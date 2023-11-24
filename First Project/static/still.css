@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background-image: url(../assests/astronot.jpg);
+    height: 770px;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 16pt;
+    font-weight: bold;
+    font-size: 16pt;
+    text-shadow: 3px 3px purple;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50pt;
+    font-style:oblique;
+}
+
+.home{
+    display: flex;
+    width: 600px;
+    font-weight: bold;
+    text-shadow: 3px 3px purple;
+    width: auto;
+}
+.home a{
+    text-decoration: none;
+}
+
+.links{
+    letter-spacing: 10px;
+    text-shadow: 3px 3px red;
+}
+.fab.fa-github {
+    color: #ffffff; /* varsayılan renk */
+}
+
+.fab.fa-instagram {
+    color: #f5f5f5; /* Instagram ikonunun rengi */
+}
+
+.fab.fa-linkedin {
+    color: #fcfcfc; /* LinkedIn ikonunun rengi */
+}
+.fab.fa-github.fa-medium{
+    color:#f5f5f5;
+}
+.fa-solid{
+    color: #f5f5f5;
+}
+
+.reklam{
+    margin-left: 50px;
+    border: solid thick black;
+    opacity: 0.8;
+    color: black;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+
+.fab:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(173, 173, 173);
+    color: white;
+    font-family: sans-serif;
+    font-size: 16pt;
+    height: 200px;
+    text-align: center;
+}

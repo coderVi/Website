@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding-left: 15px;
+    height: 90px;
+}
+
+.imgM {
+    max-width: 70px;
+    height: auto;
+}
+
+.logoP {
+    font-size: 16pt;
+    color: red;
+    text-shadow: 1px 6px 3px black;
+    margin: 0;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Liste öğelerini yatayda ortala */
+    padding: 0; /* Liste öğeleri etrafındaki boşluğu kaldır */
+    margin-left: 35%;
+}
+
+#menu li {
+    display: inline;
+    margin: 10px 10px 40px 40px;  /* Liste öğeleri arasına yatay boşluk ekle */
+    padding-top: 20px;
+    
+}
+#menu li a{
+    text-decoration: none;
+    border: thin solid black;
+    padding: 15px;
+}
+
+.dropbtn{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Dropdown İşemleri */
+
+.dropdown-content {
+    display: none; /* menu ekranda gözükmesin */
+    top: 50px; /* üst menüye olan uzaklık */
+    position: absolute;
+    z-index: 1; /* ekranda diğer elementlerden üstte görün */      
+}
+.dropdown-content a {
+    display: block; /* elemenleri alt alta getirdi */
+    background-color: white;
+    border-bottom: solid thin gold;
+    color: #000 !important;
+    text-align: left;
+    padding-left: 20px;
+    width: 100px;
+}
+/* linklerin üzerine geldiğinde bg beyaz olsun */
+.dropdown-content a:hover { 
+    background-color: azure;  
+} 
+/* menunun üzerine geldiğinde alt menüyü göster */
+.dropdown:hover .dropdown-content { 
+    display: block; 
+}
+
+/* Section */
+
+body{
+    background-image: url(../Musician/assets/musician.webp);
+}
+
+.slogan{
+    font-size: 36pt;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    text-shadow: 3px 6px 8px red;
+}
+
+/* Footer */
+
+.footer{
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer div{
+    margin-top: 20px;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
