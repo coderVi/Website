@@ -1,0 +1,223 @@
+body{
+  margin: 0;
+
+}
+.header{
+  height: 100px !important;
+}
+.container-fluid {
+  background-color: deepskyblue;
+  height: 120px;
+  position: fixed;
+}
+section{
+  background-image: url(../assests/2789423886.jpg);
+  background-size: cover; /* Resmi kaplamak için */
+}
+
+.col-md-12 img {
+  display: flex;
+}
+
+.header .row .col-md-12 div ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.header .row .col-md-12 div ul li {
+  margin-left: 30px;
+  top: 50px;
+}
+
+.header .row .col-md-12 div ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.header .row .col-md-12 div div ul {
+  display: flex;
+  list-style: none;
+  margin-top: -60px;
+  position: relative;
+  float: right;
+  margin-right: 10%;
+}
+
+.header .row .col-md-12 div div ul li {
+  margin-left: 10px;
+}
+
+.header .row .col-md-12 div div ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20pt;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.slogan {
+  color: white;
+  font-weight: bold;
+  font-size: 26pt;
+  text-align: center;
+  text-shadow: 5px 5px 10px red;
+}
+
+article{
+  padding-top: 10rem;
+  height: 100vh;
+  background-image: url(../assests/article.webp);
+  text-align: center;
+  color: white;
+  font-size: 24pt;
+  text-shadow: 5px 5px 10px red;
+  align-items: center;
+}
+article h3{
+  color: red;
+  font-size: 30pt;
+}
+article img{
+  margin-left: 20px;
+}
+
+aside {
+  background-image: url("../assests/project.jpg");
+  background-size: cover;
+  height: 70vh; /* Ekrana göre yükseklik ayarı */
+  text-align: center;
+  color: black; /* Yazı rengi */
+  padding: 20px; /* İçerik etrafındaki iç boşluk */
+  margin-top: 12rem;
+  text-shadow: 3px 3px 15px red;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside ul li {
+  margin-right: 30px; /* Listenin içerisindeki öğeler arası boşluk */
+  border: 1px solid white; /* Kenarlık rengi ve kalınlığı */
+  padding: 10px; /* İçerik ile kenarlık arasındaki iç boşluk */
+  box-shadow: 5px 5px 20px purple;
+  border: none;
+}
+
+aside ul li img {
+  width: 15rem;
+  margin-bottom: 10px; /* Resim ile metin arasındaki boşluk */
+}
+
+aside ul li:hover {
+  transform: scale(1.1); /* 1.5 kat büyütme */
+  transition: transform 0.3s ease; /* Animasyon süresi ve geçiş hızı */
+}
+
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#scrollTopBtn:hover {
+  background-color: #0056b3;
+}
+
+footer{
+  background-color: gray;
+}
+
+.logo0{
+  display: flex;
+  margin: 3rem;
+  list-style: none;
+  float: left;
+}
+.col{
+  display: flex;
+}
+.logo0 li{
+  margin-right: 3rem;
+  font-size: 34pt;
+}
+
+.logo0 li a{
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.logo0 li a:hover{
+  color: black;
+  text-shadow: 1px 1px 5px white;
+  font-size: 40pt;
+}
+
+.comp{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp iframe{
+  height: 100px;
+  width: 30rem;
+}
+
+#contact {
+  background-image: url(../assests/contac.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+#contact div {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 50px;
+}
+
+#contact div input {
+  border: none;
+  margin: 10px;
+  padding:1rem 8rem 1rem 8rem;
+  border-radius: 100px;
+}
+
+.btn{
+  margin-top: 30px;
+  background-color: deepskyblue;
+}
+
+.btn:hover{
+  background-color: rgb(0, 102, 136);
+}
